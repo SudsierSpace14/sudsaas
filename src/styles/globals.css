@@ -38,6 +38,9 @@ img {
 .border-b-2 {
   border-bottom-width: 2px;
 }
+.border-t-2 {
+  border-top-width: 2px;
+}
 .border-black {
   border-color: rgb(0 0 0);
 }
@@ -443,7 +446,7 @@ p {
 }
 h1 {
   font-size: 4.625rem;
-  line-height: 0.9;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   margin-bottom: 0;
   font-weight: 400;
@@ -1077,8 +1080,13 @@ input:checked + .slider:before {
   height: 100vh;
 }
 
+.max-screen{
+  max-height: 100vh;
+}
+
 .h-screen-navbar {
   min-height: calc(100vh - 72px);
+  max-height: 100vh;
 }
 
 .welcome {
