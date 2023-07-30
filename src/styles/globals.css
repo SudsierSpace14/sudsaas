@@ -693,7 +693,7 @@ input {
 }
 
 article.product .product-wrap {
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
 }
 
 article.product-card .product-wrap img {
