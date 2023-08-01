@@ -18,7 +18,7 @@ export default function ProductsPage({ products }) {
                 <div className="container">
                     <ul className="product-card-grid">
                         {products.map(product => (
-                            <ProductCard product={product}/>
+                            <ProductCard product={product} key={product.slug}/>
                         ))}
                     </ul>
                 </div>
